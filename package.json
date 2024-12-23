@@ -12,7 +12,9 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.2",
     "bootstrap": "^5.3.3",
+    "bootstrap-vue-next": "^0.26.17",
     "nuxt": "^3.14.1592",
+    "sass": "^1.83.0",
     "vue": "latest",
     "vue-router": "latest"
   }

@@ -4,7 +4,4 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [],
   css: ["bootstrap/dist/css/bootstrap.min.css"],
-  tailwindcss: {
-    cssPath: "~/assets/css/tailwind.css",
-  },
 });

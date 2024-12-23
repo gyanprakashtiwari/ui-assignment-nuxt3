@@ -5,16 +5,16 @@
         <div class="col-lg-8 col-md-6 col-4">
           <div class="d-flex justify-content-start gap-4">
             <div>apple</div>
-            <div>orange</div>
-            <div>orange</div>
-            <div>orange</div>
-            <div>orange</div>
+            <div>orange1</div>
+            <div>orange2</div>
+            <div>orange3</div>
+            <div>orange4</div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="d-flex justify-content-end gap-3">
-            <div>right 1</div>
-            <div>right 2</div>
+            <div>right1</div>
+            <div>right2</div>
           </div>
         </div>
 
