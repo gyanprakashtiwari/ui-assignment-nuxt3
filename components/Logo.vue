@@ -1,10 +1,10 @@
 <template>
-  <div class="logo-container">
-    <div class="logo">
+  <div class="container-fluid">
+    <a class="navbar-brand logo-container" href="#">
       <svg
-        width="30"
-        height="30"
-        viewBox="0 0 36 36"
+        width="25"
+        height="25"
+        viewBox="0 0 30 30"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -14,10 +14,8 @@
         />
         <circle cx="4.5" cy="11.4688" r="4.5" fill="#0F172A" />
       </svg>
-    </div>
-    <div :class="['logo-text', customClass]">
-      <p>teach</p>
-    </div>
+      <span>teach</span>
+    </a>
   </div>
 </template>
 
@@ -35,20 +33,25 @@ export default {
 
 <style scoped>
 .logo-container {
-  display: flex;
-  align-items: center;
+  margin: auto;
+  /* padding: 20px; */
+  margin-top: -5px;
 }
 
-.logo {
-  margin-right: -10px; /* Adjusts the space between logo and text */
-  display: inline-block;
-  width: auto;
-  height: auto;
+.logo-container span {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  /* margin-bottom: 50px; */
 }
 
-.logo-text {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #333;
+.logo-container svg {
+  margin-right: -6px;
+  margin-top: -10px;
 }
+
+/* .logo {
+  margin-right: -6px;
+  margin-bottom: 50px;
+} */
 </style>

@@ -1,7 +1,9 @@
 <template>
-  <footer class="w-full bg-gray-800 text-white py-4">
-    <div class="container mx-auto text-center">
-      <p>utech @ {{ new Date().getFullYear() }} All rights reserved.</p>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <p>utech @ {{ new Date().getFullYear() }} All rights reserved.</p>
+      </div>
     </div>
   </footer>
 </template>

@@ -4,9 +4,9 @@
     <Header />
 
     <!-- Main Content -->
-    <main class="">
-      <slot />
-    </main>
+    <!-- <main class=""> -->
+    <slot />
+    <!-- </main> -->
 
     <!-- Footer Component -->
     <Footer />
