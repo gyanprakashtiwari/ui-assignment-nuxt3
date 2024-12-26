@@ -18,12 +18,11 @@
 <style scoped>
 .custom-background-image {
   background-image: url(/assets/icons/tools-sec.png);
-  background-size: contain; /* Makes the image cover the entire div */
-  background-position: top; /* Centers the image */
+  background-size: contain;
+  background-position: top;
   background-repeat: no-repeat;
-  height: 1195px;
+  height: 800px;
   width: 100%;
-  /* margin: auto; */
 }
 .custom-pd {
   padding-top: 14rem;
