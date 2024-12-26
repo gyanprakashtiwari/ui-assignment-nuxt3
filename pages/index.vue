@@ -1,6 +1,7 @@
 <template>
   <div class="">
     <HeroSection />
+    <ToolsSection />
   </div>
 </template>
 
