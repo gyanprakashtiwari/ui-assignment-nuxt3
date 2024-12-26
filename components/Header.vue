@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="laptop-view">
+    <div class="container laptop-view">
       <div class="row mt-3">
         <div class="col-lg-8 col-md-6 col mt-2">
           <div class="d-flex justify-content-start gap-4">
