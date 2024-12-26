@@ -24,7 +24,7 @@
           </div>
 
           <div
-            class="d-flex justify-content-start align-items-center space-around"
+            class="d-flex justify-content-start align-items-center space-around my-5"
           >
             <div class="col-lg-6">
               <button
