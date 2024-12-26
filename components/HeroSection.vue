@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="row mt-5">
+    <div class="row mt-5 pt-5">
       <div class="col-lg-6">
         <div class="left-section">
           <div
