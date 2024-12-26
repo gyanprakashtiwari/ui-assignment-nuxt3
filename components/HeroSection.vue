@@ -3,20 +3,28 @@
     <div class="row mt-5">
       <div class="col-lg-6">
         <div class="left-section">
-          <div class="d-flex justify-content-start align-items-top">
+          <div
+            class="d-flex justify-content-start align-items-center space-around"
+          >
             <h1 class="fs-1 fw-bold">Teach Students Worldwide</h1>
           </div>
-          <div class="d-flex justify-content-start align-items-bottom">
+          <div
+            class="d-flex justify-content-start align-items-center space-around"
+          >
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. At earum
               dolorum saepe, optio iusto odit aspernatur velit quaerat modi
               aliquid enim! Quasi itaque iusto sunt necessitatibus pariatur
-              vitae minus nemo?
+              vitae minus nemo? Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Veritatis corporis tempora pariatur deleniti
+              quos recusandae quod placeat expedita enim modi, maiores
+              asperiores error ratione, voluptate perspiciatis libero voluptas,
+              repellat officia?
             </p>
           </div>
 
           <div
-            class="d-flex justify-content-start align-items-bottom space-between"
+            class="d-flex justify-content-start align-items-center space-around"
           >
             <div class="col-lg-6">
               <button
@@ -26,7 +34,7 @@
                 Sign Up Now
               </button>
             </div>
-            <div class="col-lg-6 mt-1">
+            <div class="col-lg-6">
               <a href="" class="custom-text-dec-none">
                 <img
                   class="mx-2"
@@ -48,7 +56,7 @@
                 <div class="col-lg-8 col-md-9">
                   <div class="row">
                     <div
-                      class="d-flex justify-content-start space-between gap-2"
+                      class="d-flex justify-content-start align-items-center space-between gap-2"
                     >
                       <div class="col-2">
                         <img
