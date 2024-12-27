@@ -36,7 +36,7 @@
                 </div>
                 <div>
                   <div class="bg text-wrap custom-sub-heading">
-                    <p>The map of mathematics</p>
+                    The map of mathematics
                   </div>
                 </div>
                 <div>
@@ -64,7 +64,7 @@
                 </div>
                 <div>
                   <div class="bg text-wrap custom-sub-heading">
-                    <p>Design for how people think</p>
+                    Design for how people think
                   </div>
                 </div>
                 <div>
@@ -92,7 +92,7 @@
                 </div>
                 <div>
                   <div class="bg text-wrap custom-sub-heading">
-                    <p>International & commercial law</p>
+                    International & commercial law
                   </div>
                 </div>
                 <div>
@@ -144,6 +144,7 @@
 .custom-small-card {
   display: flex;
   flex-direction: column;
+  /* gap: 1rem; */
   width: 170px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -190,7 +191,7 @@
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 450px;
   width: 100%;
 }
 .tick-list {
