@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="left-section col-lg-5">
-        <div
-          class="d-flex flex-column justify-content-start align-items-top pt-5"
-        >
+      <div
+        class="left-section col-lg-5 d-flex flex-column justify-content-center align-items-start"
+      >
+        <div class="mt-5">
           <div class="">
             <h1 class="fw-bolder">An all-in-one app that makes it easier</h1>
           </div>
