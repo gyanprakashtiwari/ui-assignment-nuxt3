@@ -4,6 +4,7 @@
     <ToolsSection />
     <AllInOneSection />
     <MeetSection />
+    <StatsSection />
   </div>
 </template>
 
