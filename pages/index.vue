@@ -2,6 +2,7 @@
   <div class="">
     <HeroSection />
     <ToolsSection />
+    <AllInOneSection />
   </div>
 </template>
 
