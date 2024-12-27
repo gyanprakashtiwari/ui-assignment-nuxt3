@@ -3,6 +3,7 @@
     <HeroSection />
     <ToolsSection />
     <AllInOneSection />
+    <MeetSection />
   </div>
 </template>
 
