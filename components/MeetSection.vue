@@ -47,7 +47,7 @@
 }
 .custom-bg {
   background-image: url(/assets/icons/sec-4-left.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
