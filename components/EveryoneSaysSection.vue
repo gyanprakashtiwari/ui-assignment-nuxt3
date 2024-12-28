@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="my-5">
     <div class="card-header">
       <div class="row">
         <div class="col-6 d-flex justify-content-start align-items-center">
@@ -100,6 +100,7 @@
           </div>
         </div>
       </div>
+      <!-- 
       <div class="card" style="width: 20rem">
         <div class="card-body">
           <div class="card-content">
@@ -151,6 +152,7 @@
           </div>
         </div>
       </div>
+       -->
     </div>
 
     <!-- Caraousel Cards -->
