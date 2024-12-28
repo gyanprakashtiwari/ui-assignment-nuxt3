@@ -8,6 +8,7 @@
     <EveryoneSaysSection />
     <CoolFeatures />
     <SignUpSection />
+    <!-- <Footer /> -->
   </div>
 </template>
 

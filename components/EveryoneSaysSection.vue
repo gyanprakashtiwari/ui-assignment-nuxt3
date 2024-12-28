@@ -23,7 +23,9 @@
         </div>
       </div>
     </div>
-    <div class="cards d-flex justofy-content-start align-items-center gap-2">
+    <div
+      class="cards d-flex justofy-content-start align-items-center gap-3 py-3"
+    >
       <div class="card" style="width: 20rem">
         <div class="card-body">
           <div class="card-content">
