@@ -114,7 +114,55 @@
             </div>
           </div>
         </div>
-        <div class="row footer-main-lower">footer-main-lower</div>
+        <div class="row footer-main-lower">
+          <div class="row py-3">
+            <div class="col-lg-6 col-12 footer-bottom-left">
+              <p>uteach @ 2023. All rights reserved.</p>
+            </div>
+            <div class="col-lg-6 col-12 footer-bottom-right">
+              <div class="row">
+                <div class="d-flex justify-content-end">
+                  <div class="col-2">
+                    <p>Terms</p>
+                  </div>
+                  <div class="col-2">
+                    <p>Privacy</p>
+                  </div>
+                  <div class="col-2">
+                    <p>Contact</p>
+                  </div>
+                  <div class="col-2">
+                    <div
+                      class="d-flex justify-content-center align-items-center space-between gap-1"
+                    >
+                      <img class="" src="/assets/icons/globe.png" alt="" />
+                      <span>EN</span>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div
+                      class="d-flex justify-content-center align-items-center space-between gap-1"
+                    >
+                      <img class="" src="/assets/icons/euro.png" alt="" />
+                      <span>EUR</span>
+                    </div>
+                  </div>
+                  <div class="col-1">
+                    <div
+                      class="d-flex justify-content-center align-items-center"
+                    >
+                      <img
+                        class="accessibility"
+                        src="/assets/icons/accessibility.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
@@ -123,6 +171,26 @@
 <script setup></script>
 
 <style scoped>
+.accessibility {
+  height: 18px !important;
+  width: 18px !important;
+}
+.footer-bottom-left p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #e2e8f0;
+}
+.footer-bottom-right p,
+span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #e2e8f0;
+}
+
+.footer-bottom-right img {
+  height: 15px;
+  width: 15px;
+}
 .row-top {
   font-size: 16px;
   font-weight: 500;
@@ -133,6 +201,7 @@
   font-weight: 400;
   color: #e2e8f0;
 }
+/* .row-other he */
 .row-other p span {
   color: #6b21a8;
   background-color: white;
