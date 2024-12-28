@@ -5,6 +5,8 @@
     <AllInOneSection />
     <MeetSection />
     <StatsSection />
+    <EveryoneSaysSection />
+    <CoolFeatures />
   </div>
 </template>
 
