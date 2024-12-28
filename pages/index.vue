@@ -7,6 +7,7 @@
     <StatsSection />
     <EveryoneSaysSection />
     <CoolFeatures />
+    <SignUpSection />
   </div>
 </template>
 
