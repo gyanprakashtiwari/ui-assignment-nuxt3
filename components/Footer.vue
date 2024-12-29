@@ -8,7 +8,7 @@
               <img src="/assets/icons/u-logo.png" alt="" /> <span>teach</span>
             </div>
           </div>
-          <div class="col-lg-2 col mt-1">
+          <div class="col-lg-2 col-12 mt-1">
             <div
               class="d-flex flex-column justify-content-start align-items-start space-between"
             >
@@ -29,7 +29,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col mt-1">
+          <div class="col-lg-2 col-12 mt-1">
             <div
               class="d-flex flex-column justify-content-start align-items-start space-between"
             >
@@ -50,7 +50,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col mt-1">
+          <div class="col-lg-2 col-12 mt-1">
             <div
               class="d-flex flex-column justify-content-start align-items-start space-between"
             >
@@ -71,7 +71,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col mt-1">
+          <div class="col-lg-2 col-12 mt-1">
             <div
               class="d-flex flex-column justify-content-start align-items-start space-between"
             >
@@ -92,7 +92,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col mt-1">
+          <div class="col-lg-2 col-12 mt-1">
             <div
               class="d-flex flex-column justify-content-start align-items-start space-between"
             >
