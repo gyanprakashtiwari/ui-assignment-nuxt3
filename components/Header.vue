@@ -1,138 +1,81 @@
 <template>
   <header>
-    <div class="container laptop-view">
-      <div class="row mt-3">
-        <div class="col-lg-8 col-md-6 col mt-2">
-          <div class="d-flex justify-content-start gap-4">
-            <div>
-              <Logo title="BrandName" />
-            </div>
-            <div class="custom-link">
-              <NuxtLink to="/products">Products</NuxtLink>
-            </div>
-            <div class="custom-link">
-              <NuxtLink to="/solutions">Solutions</NuxtLink>
-            </div>
-            <div class="custom-link">
-              <NuxtLink to="/pricing">Pricing</NuxtLink>
-            </div>
-            <div class="custom-link">
-              <NuxtLink to="/resources">
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand custom-brand" href="#">
+            <img
+              src="/assets/icons/u-logo-black-dot.png"
+              alt=""
+              class="d-inline-block align-text-top"
+            />
+            teach
+          </a>
+          <button
+            class="navbar-toggler custom-navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse custom-navbar-toggler"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 space-between gap-3">
+              <li class="nav-item custom-nav-link-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Products</a
+                >
+              </li>
+              <li class="nav-item custom-nav-link-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Solutions</a
+                >
+              </li>
+              <li class="nav-item custom-nav-link-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item dropdown custom-nav-link-item">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
-                  id="navbarDropdownMenuLink"
+                  id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Resources
                 </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
                   <li>
                     <a class="dropdown-item" href="#">Something else here</a>
                   </li>
                 </ul>
-              </NuxtLink>
+              </li>
+            </ul>
+            <div class="d-flex space-between gap-3">
+              <button class="btn custom-login" type="submit">Log In</button>
+              <button class="btn custom-singup" type="submit">
+                Sign Up Now
+              </button>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mt-2">
-          <div class="d-flex justify-content-end gap-3">
-            <div class="custom-link">
-              <NuxtLink to="/login">Log In</NuxtLink>
-            </div>
-            <div class="custom-link">
-              <NuxtLink to="/signup">
-                <button
-                  type="button"
-                  class="btn btn-outline-dark btn-sm singup-btn"
-                >
-                  Sing Up Now
-                </button>
-              </NuxtLink>
-            </div>
-          </div>
-        </div>
-      </div>
+      </nav>
     </div>
-    <!-- <div class="laptop-view">
-      <div class="row">
-        <div class="col-lg-8 col-md-6 col-4">
-          <div class="d-flex justify-content-start gap-4">
-            <div>apple</div>
-            <div>orange1</div>
-            <div>orange2</div>
-            <div>orange3</div>
-            <div>orange4</div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="d-flex justify-content-end gap-3">
-            <div>right1</div>
-            <div>right2</div>
-          </div>
-        </div>
-
-        <div class="logo">
-          <NuxtLink class="custom-text-decoration-none" to="/">
-            <Logo title="BrandName" />
-          </NuxtLink>
-        </div>
-
-        <nav class="nav-links">
-          <NuxtLink to="/products">Products</NuxtLink>
-          <NuxtLink to="/solutions">Solutions</NuxtLink>
-
-          <div
-            class="resources-menu"
-            @mouseenter="showMenu"
-            @mouseleave="hideMenu"
-          >
-            <NuxtLink to="#" class="nav-link"
-              >Resources
-              <span class="dropdown-icon">&#x2304; </span>
-            </NuxtLink>
-
-            <div v-if="menuVisible" class="dropdown-menu">
-              <NuxtLink to="/resource1" class="dropdown-item"
-                >Resource1</NuxtLink
-              >
-              <NuxtLink to="/resource2" class="dropdown-item"
-                >Resource2</NuxtLink
-              >
-            </div>
-          </div>
-        </nav>
-
-        <div class="auth-buttons">
-          <NuxtLink to="/login" class="login-btn">Log In</NuxtLink>
-          <NuxtLink to="/signup" class="signup-btn">Sign Up Now</NuxtLink>
-        </div>
-      </div>
-    </div> -->
-    <!-- <div class="mobile-view"></div> -->
   </header>
 </template>
 
-<script setup>
-import { ref } from "vue";
-
-const menuVisible = ref(false);
-
-const showMenu = () => {
-  menuVisible.value = true;
-};
-
-const hideMenu = () => {
-  menuVisible.value = false;
-};
-</script>
 <style scoped>
 /* @media (width <= 768px) {
   .laptop-view {
@@ -151,19 +94,39 @@ const hideMenu = () => {
     display: none;
   }
 } */
+.custom-navbar-toggler {
+  border: none;
+}
+.custom-navbar-toggler:focus,
+.custom-navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.custom-nav-link-item {
+  color: #0f172a !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+.custom-singup {
+  border: 2px solid #0f172a;
+  color: #0f172a;
+}
+.custom-login {
+  border: none;
+  color: #0f172a;
+}
+.custom-nav {
+  background-color: white !important;
+}
 .custom-brand {
-  margin-right: -4rem;
-  margin-top: auto;
+  font-size: 26px;
+  font-weight: 700;
+  color: #0f172a;
 }
-.custom-link a {
-  text-decoration: none;
-  color: black;
-}
-.signup-btn {
-  margin: auto;
-  color: black;
-  font-style: bold;
-  font-size: 16px;
-  font-weight: 400;
+.custom-brand img {
+  height: 23px;
+  width: 22px;
+  margin-top: 5px;
 }
 </style>

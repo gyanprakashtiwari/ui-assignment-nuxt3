@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <!-- Header Component -->
-    <Header1 />
+    <Header />
 
     <!-- Main Content -->
     <!-- <main class=""> -->
