@@ -108,6 +108,11 @@
   font-size: 16px !important;
   font-weight: 400 !important;
 }
+.custom-nav-link-item a {
+  color: #0f172a !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
 .custom-singup {
   border: 2px solid #0f172a;
   color: #0f172a;
