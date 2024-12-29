@@ -7,24 +7,6 @@
       <div
         class="col-6 d-flex justify-content-end align-items-center space-between gap-1"
       >
-        <!-- Custom Buttons -->
-        <!-- <button
-            class="carousel-control-prev arrow-btn"
-            type="button"
-            data-bs-target="#customCarousel"
-            data-bs-slide="prev"
-          >
-            <img src="/assets/icons/btn-left-arrow.png" alt="Previous" />
-          </button>
-          <button
-            class="carousel-control-next arrow-btn"
-            type="button"
-            data-bs-target="#customCarousel"
-            data-bs-slide="next"
-          >
-            <img src="/assets/icons/btn-right-arrow.png" alt="Next" />
-          </button> -->
-
         <button id="prevSlide" class="arrow-btn">
           <img src="/assets/icons/btn-left-arrow.png" alt="Previous" />
         </button>
