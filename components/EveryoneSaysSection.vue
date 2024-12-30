@@ -1,22 +1,22 @@
 <template>
   <div class="my-5">
-    <div class="row">
-      <div class="col-6 d-flex justify-content-start align-items-center">
-        <h1 class="fw-bolder">What everyone says</h1>
-      </div>
-      <div
-        class="col-6 d-flex justify-content-end align-items-center space-between gap-1"
-      >
-        <button id="prevSlide" class="arrow-btn">
-          <img src="/assets/icons/btn-left-arrow.png" alt="Previous" />
-        </button>
-        <button id="nextSlide" class="arrow-btn">
-          <img src="/assets/icons/btn-right-arrow.png" alt="Next" />
-        </button>
-      </div>
-    </div>
-
     <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-start align-items-center">
+          <h1 class="fw-bolder">What everyone says</h1>
+        </div>
+        <div
+          class="col-6 d-flex justify-content-end align-items-center space-between gap-1"
+        >
+          <button id="prevSlide" class="arrow-btn">
+            <img src="/assets/icons/btn-left-arrow.png" alt="Previous" />
+          </button>
+          <button id="nextSlide" class="arrow-btn">
+            <img src="/assets/icons/btn-right-arrow.png" alt="Next" />
+          </button>
+        </div>
+      </div>
+
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div
