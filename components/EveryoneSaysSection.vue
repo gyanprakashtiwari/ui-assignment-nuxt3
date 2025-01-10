@@ -1,5 +1,5 @@
 <template>
-  <div class="my-5">
+  <div class="my-5 custom-card-container">
     <div class="laptop-view">
       <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="row">
@@ -362,6 +362,18 @@
   .mobile-view {
     display: none;
   }
+}
+
+.card {
+  background-color: #ffffff;
+  width: 372px;
+  height: 250px;
+  border-radius: 20px;
+  border: 1px solid rgb(228, 226, 226);
+  /* box-shadow: #475569; */
+}
+.custom-card-container {
+  margin-left: 4rem;
 }
 .arrow-btn {
   border: none;
