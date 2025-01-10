@@ -29,10 +29,12 @@
                 Sign Up Now
               </button>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 view-demo-btn">
               <a href="" class="custom-text-dec-none">
                 <img
                   class="mx-2"
+                  height="20px"
+                  width="20px"
                   src="/assets/icons/v_play_vector.png"
                   alt=""
                 />
@@ -116,6 +118,12 @@
 </template>
 
 <style scoped>
+.view-demo-btn {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2563eb;
+  /* margin-left: 4rem !important; */
+}
 .custom-image-contain {
   background-image: cover;
 }
