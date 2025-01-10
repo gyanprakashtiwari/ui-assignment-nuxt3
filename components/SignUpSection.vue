@@ -38,12 +38,27 @@
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.custom-inner-div-element h1 {
+  font-size: 56px;
+  color: #0f172a;
+  font-weight: 800;
+}
+.custom-inner-div-element p {
+  font-size: 20px;
+  color: #0f172a;
+  font-weight: 400;
+}
 .custom-inner-div {
   width: 70%;
 }
 .custom-btn {
   background-color: #ea580c;
   border: #ea580c;
+  width: 239px;
+  height: 64px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
 }
 .bg-img {
   width: 100%;
