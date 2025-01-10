@@ -2,7 +2,7 @@
   <div class="container custom-container">
     <div class="custom-background-image mt-5">
       <div class="d-flex justify-content-center align-items-center pt-4">
-        <h1 class="fw-bolder">All the tools that you need</h1>
+        <h1 class="fw-bolder tools-h1">All the tools that you need</h1>
       </div>
       <div class="d-flex justify-content-center align-items-center custom-pd-t">
         <div class="col-lg-8">
@@ -18,8 +18,16 @@
 </template>
 
 <style scoped>
+.tools-h1 {
+  padding-top: 0.5rem !important;
+  font-size: 56px;
+  font-weight: 800;
+  color: #0f172a;
+}
 .custom-pd-t {
-  padding-top: 4rem;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+
   font-size: 20px;
   font-weight: 400;
 }
