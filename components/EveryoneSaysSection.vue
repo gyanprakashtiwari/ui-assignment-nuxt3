@@ -7,7 +7,7 @@
             <h1 class="fw-bolder">What everyone says</h1>
           </div>
           <div
-            class="col-6 d-flex justify-content-end align-items-center space-between gap-1"
+            class="col-6 d-flex justify-content-end align-items-center space-between gap-1 custom-card-btns"
           >
             <!-- Link buttons to carousel controls -->
             <button
@@ -362,6 +362,10 @@
   .mobile-view {
     display: none;
   }
+}
+
+.custom-card-btns {
+  padding-right: 6rem;
 }
 
 .card {
