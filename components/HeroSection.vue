@@ -1,25 +1,20 @@
 <template>
   <div class="container">
-    <div class="row mt-5 pt-5">
+    <div class="row mt-5 pt-4">
       <div class="col-lg-6">
         <div class="left-section">
           <div
             class="d-flex justify-content-start align-items-center space-around"
           >
-            <h1 class="fs-1 fw-bold">Teach Students Worldwide</h1>
+            <h1>Teach Students Worldwide</h1>
           </div>
           <div
             class="d-flex justify-content-start align-items-center space-around"
           >
-            <p>
+            <p class="left-section-text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. At earum
-              dolorum saepe, optio iusto odit aspernatur velit quaerat modi
-              aliquid enim! Quasi itaque iusto sunt necessitatibus pariatur
-              vitae minus nemo? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Veritatis corporis tempora pariatur deleniti
-              quos recusandae quod placeat expedita enim modi, maiores
-              asperiores error ratione, voluptate perspiciatis libero voluptas,
-              repellat officia?
+              dolorum saepe, voluptate perspiciatis libero voluptas, repellat
+              officia?
             </p>
           </div>
 
@@ -29,7 +24,7 @@
             <div class="col-lg-6">
               <button
                 type="button"
-                class="btn btn-primary fs-6 custom-text-singup custom-text-dec-none"
+                class="btn btn-primary custom-text-singup custom-text-dec-none"
               >
                 Sign Up Now
               </button>
@@ -136,9 +131,24 @@
 .custom-text-singup {
   background-color: #ea580c;
   border: none;
+  height: 64px;
+  width: 239px;
+  font-size: 24px;
+  font-weight: 700;
+  /* margin: 1rem; */
 }
 .left-section {
   border: none;
+}
+.left-section h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #0f172a;
+}
+.left-section-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #0f172a;
 }
 .right-section {
   border: none;
