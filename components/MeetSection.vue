@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="row my-5">
+    <div class="row my-5 py-4 px-3">
       <div class="col-lg-6 col-md-12 left">
         <div class="custom-bg"></div>
       </div>
@@ -57,8 +57,9 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  /* margin-left: 2rem; */
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 .aeroplane img {
   height: 50px;
