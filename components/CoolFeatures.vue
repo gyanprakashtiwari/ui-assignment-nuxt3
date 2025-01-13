@@ -1,6 +1,29 @@
 <template>
   <div class="container">
     <div class="row">
+      <div
+        class="left-section col-lg-5 d-flex flex-column justify-content-center align-items-start"
+      >
+        <div class="mt-5">
+          <div class="">
+            <h1 class="fw-bolder">All the cool features</h1>
+          </div>
+          <div class="mt-4">
+            <p>
+              Mauris consequat, cursus pharetra et, habitasse rhoncus quis odio
+              ac. In et dolor eu donec maecenas nulla. Cum sed orci, sit
+              pellentesque quisque feugiat cras ullamcorper. Ultrices in amet,
+              ullamcorper non viverra a, neque orci.
+            </p>
+          </div>
+          <div class="my-4">
+            <a href="#" class="text-decoration-none custom-view-feature-button">
+              View all the features
+              <img src="/assets/icons/right-arrow.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
       <div class="right-section col-lg-7">
         <div
           class="bg custom-background-img outer-div d-flex justify-content-start align-items-start"
@@ -39,37 +62,24 @@
           </div>
         </div>
       </div>
-      <div
-        class="left-section col-lg-5 d-flex flex-column justify-content-center align-items-start"
-      >
-        <div class="mt-5">
-          <div class="">
-            <h1 class="fw-bolder">All the cool features</h1>
-          </div>
-          <div class="mt-4">
-            <p>
-              Mauris consequat, cursus pharetra et, habitasse rhoncus quis odio
-              ac. In et dolor eu donec maecenas nulla. Cum sed orci, sit
-              pellentesque quisque feugiat cras ullamcorper. Ultrices in amet,
-              ullamcorper non viverra a, neque orci.
-            </p>
-          </div>
-          <div class="my-4">
-            <a href="#" class="text-decoration-none">
-              Find more about the app
-              <img src="/assets/icons/right-arrow.png" alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+.custom-view-feature-button {
+  color: #2563eb;
+  font-size: 20px;
+  font-weight: 500;
+}
+.custom-view-feature-button img {
+  margin-left: 1rem;
+}
+
 .custom-single-card {
   margin-left: 2.5rem !important;
   margin-bottom: 13rem !important;
+  padding-left: 2rem;
 }
 .custom-btn {
   /* color: #2563eb; */
@@ -94,11 +104,13 @@
 .custom-small-card {
   display: flex;
   flex-direction: column;
-  /* gap: 1rem; */
-  width: 170px;
+  width: 200px;
+  height: 220px;
   background-color: #ffffff;
   border-radius: 5px;
-  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .custom-content-new {
   color: #166534;
