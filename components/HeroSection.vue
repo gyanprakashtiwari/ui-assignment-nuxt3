@@ -142,12 +142,15 @@
 }
 .custom-text-singup {
   background-color: #ea580c;
-  border: none;
+  border: 2px solid #ea580c;
   height: 64px;
   width: 239px;
-  font-size: 24px;
-  font-weight: 650;
-  /* margin: 1rem; */
+  font-size: 22px;
+  font-weight: 700;
+  padding-right: 18px;
+  padding-left: 18px;
+  border-radius: 8px;
+  color: #ffffff;
 }
 .left-section {
   border: none;
