@@ -43,7 +43,7 @@
             </div>
           </div>
           <div>
-            <div class="row mt-4">
+            <div class="row mt-4 pt-3">
               <div
                 class="d-flex justify-content-start align-items-start space-around gap-3"
               >
