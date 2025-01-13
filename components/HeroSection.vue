@@ -19,7 +19,7 @@
           </div>
 
           <div
-            class="d-flex justify-content-start align-items-center space-around my-5"
+            class="d-flex justify-content-start align-items-center space-around mb-5 mt-3"
           >
             <div class="col-lg-6">
               <button
@@ -32,7 +32,7 @@
             <div class="col-lg-6 view-demo-btn">
               <a href="" class="custom-text-dec-none">
                 <img
-                  class="mx-2"
+                  class="custom-view-demo-btn"
                   height="20px"
                   width="20px"
                   src="/assets/icons/v_play_vector.png"
@@ -118,6 +118,10 @@
 </template>
 
 <style scoped>
+.custom-view-demo-btn {
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+}
 .view-demo-btn {
   font-size: 20px;
   font-weight: 500;
@@ -142,7 +146,7 @@
   height: 64px;
   width: 239px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 650;
   /* margin: 1rem; */
 }
 .left-section {
