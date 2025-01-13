@@ -144,8 +144,16 @@
   border: 2px solid #0f172a;
   color: #0f172a;
   align-self: center;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  padding-right: 1.3rem;
+  padding-left: 1.3rem;
+  /* padding: 12px; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
 .custom-login {
   border: none;
