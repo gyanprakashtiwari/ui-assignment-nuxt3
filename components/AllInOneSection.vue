@@ -16,8 +16,9 @@
             </ul>
           </div>
           <div class="my-4">
-            <a href="#" class="text-decoration-none">
-              Find more about the app
+            <a href="#" class="text-decoration-none custom-view-feature-button">
+              View all the features
+              <img src="/assets/icons/right-arrow.png" alt="" />
             </a>
           </div>
         </div>
@@ -27,7 +28,7 @@
           class="bg custom-background-img outer-div d-flex flex-column justify-content-center align-items-center"
         >
           <div class="row mt-auto">
-            <div class="d-flex space-around gap-1">
+            <div class="d-flex space-around gap-2">
               <div class="col-4 custom-small-card">
                 <div>
                   <div class="bg text-wrap custom-content-feature">
@@ -121,6 +122,15 @@
 </template>
 
 <style scoped>
+.custom-view-feature-button {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2563eb;
+}
+.custom-view-feature-button img {
+  padding-left: 1rem;
+}
+
 .custom-btn {
   /* color: #2563eb; */
   height: 40px;
