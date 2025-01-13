@@ -1,5 +1,5 @@
 <template>
-  <div class="bg custom-bg my-4">
+  <div class="bg custom-bg my-4 py-3">
     <div class="row py-5">
       <div
         class="col-lg-4 col-12 stats d-flex flex-column justify-content-center align-items-center"
